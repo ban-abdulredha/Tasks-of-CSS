@@ -1,0 +1,1 @@
+This the first task in CSS course of web design courses that determine the vaild and invalid of selector (class) name.

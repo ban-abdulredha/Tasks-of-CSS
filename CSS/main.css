@@ -1,0 +1,61 @@
+.div
+{
+    background-color: blueviolet;
+    height: 300px;
+}
+
+
+/*
+ ._my-div
+{}
+//This is valid class name 
+*/
+
+
+/*
+ .-my-div
+{}
+//This is valid class name 
+*/
+
+
+/*
+ .12my-div
+{}
+//This is invalid class name 
+*/
+
+
+/*
+ .% my-div
+{}
+//This is invalid class name
+*/
+
+
+/* 
+.@my-div
+{}
+//This is invalid class name
+*/
+
+
+/* 
+.my @div
+{}
+//This is invalid class name 
+*/
+
+
+/*
+ ._my78div
+{}
+//This is valid class name
+*/
+
+
+/*
+ .div
+{}
+//This is valid class name 
+*/
