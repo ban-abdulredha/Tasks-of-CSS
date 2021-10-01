@@ -1,0 +1,25 @@
+div
+{
+    width: 250px;
+    height: 169px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.div1
+{
+    background-color: #ca19e887;
+}
+.div2
+{
+    background-color: #540954;
+}
+
+.div3
+{
+    background-color: #a9a9a9;
+}
+.div2,.div3
+{
+    color: white;
+}
