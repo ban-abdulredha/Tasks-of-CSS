@@ -1,0 +1,13 @@
+.div
+{
+    background-color: #ada8a891;
+    padding: 20px;
+    border-left: 6px solid red;
+    font-size: 15.5px;
+}
+span
+{
+    color: red;
+    font-weight: bolder;
+    font-size: 22px;
+}
