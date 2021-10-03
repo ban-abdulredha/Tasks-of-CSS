@@ -1,0 +1,28 @@
+div
+{
+background-image: url("../images/image.jpg");
+height: 400px;
+width: 400px;
+padding: 24px;
+font-size: 20px;
+background-size: contain;
+margin: 10px;
+}
+.div1
+{
+    background-repeat: no-repeat;
+}
+.div2
+{
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.div3
+{
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.div4
+{
+    background-repeat: repeat;
+}
