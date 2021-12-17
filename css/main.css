@@ -1,0 +1,393 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* upper header*/
+.upper-header
+{
+  background-color: maroon; 
+  height: 50px; 
+}
+.upper-header .left
+{
+display: inline;
+float: left;
+}
+.upper-header .right
+{
+    display: inline;
+    float: right;
+
+}
+.upper-header .left ul ,.upper-header .right ul
+{
+    list-style: none;
+    margin: 10px
+}
+.upper-header .left ul li , .upper-header .right ul li
+{
+    display: inline;
+    padding: 20px;
+    
+}
+.upper-header .left a , .upper-header .right a
+{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+.upper-header .right img
+{
+    width: 37px;
+    height: 33px;
+}
+.upper-header .left ul li :first-child::before
+{
+    content: "";
+    width: 37px;
+    height: 37px;
+    background-image: url(../images/email.png);
+    background-size: cover;
+    position: absolute;
+    left: 4px;
+    top: 2px;
+}
+.upper-header .left ul li :last-child::after
+{
+    content: "";
+    width: 37px;
+    height: 37px;
+    background-image: url(../images/call.png);
+    background-size: cover;
+    position: absolute;
+    left: 159px;
+    top: 1px;
+}
+
+
+/*navbar*/
+.navbar
+{
+padding: 10px;
+}
+
+.navbar .logo
+{
+display: inline;
+float: left;
+} 
+.navbar .logo p
+{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    color: maroon;
+    font-family: ui-rounded;
+}
+.navbar .logo span:first-child
+{
+    color: rgb(194, 174, 137);
+}
+.navbar .logo span:last-child
+{
+    color: maroon;
+}
+
+.navbar .nav
+{
+display: inline;
+float: right;
+right: 143px;
+position: absolute;
+}
+.navbar .nav ul
+{
+    list-style: none;
+    padding: 13px
+}
+.navbar .nav ul li
+{
+    display: inline;
+    padding: 10px;
+}
+.navbar .nav ul a
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 12px;
+    color: maroon;
+}
+.navbar .nav ul a:hover
+{
+    color: rgb(194, 174, 137);
+}
+.navbar .nav ul li:last-child
+{
+    border: 3px outset maroon;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 69px;
+    left: 78px;
+    position: relative;
+    box-shadow: inset 0 0 0 0 rgb(194, 174, 137);
+    transition: ease-out 0.3s;
+    color: rgb(194, 174, 137);
+    
+}
+.navbar .nav ul li:last-child:hover
+{
+    color: maroon;
+    border: 3px inset rgb(194, 174, 137);
+    box-shadow: inset 130px 0 0 0 rgb(194, 174, 137);
+
+}
+
+
+
+/*content*/
+.content
+{
+    margin-top: 120px;
+}
+/* formatting of content1 */
+.content .content1 .left
+{
+display: inline;
+float: left;
+margin:34px;
+max-width: 50%;
+}
+
+.content1 .left input
+{   
+     padding: 10px 54px;
+    border: 3px inset maroon;
+    border-radius: 20px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin: 10px;
+    font-size: 16px;
+    color: maroon;
+    transition: ease-out 0.3s;
+    box-shadow: inset 0 0 0 0 rgb(194, 174, 137);
+    background-color: white;
+    
+}
+.content1 .left input:hover
+{
+    color: white;
+    border-color: rgb(194, 174, 137);
+    box-shadow: inset 300px 0 0 0 rgb(194, 174, 137);
+}
+.content .content1 .right
+{
+    display: inline;
+    float: right;
+    max-width: 50%;
+}
+
+/* formatting of content2 */
+.content .content2 .left
+{
+display: inline;
+float: left;
+margin:34px;
+max-width: 50%;
+}
+.content2 .right p , .content1 .left p 
+{
+    padding: 10px;
+    text-align: justify;
+    color: #c2ae89;
+}
+.content2 .right p:hover , .content1 .left p:hover 
+{
+        color: #8b7e67;
+}
+.content .content2 .right
+{
+    display: inline;
+    float: right;
+    max-width: 50%;
+    padding: 50px;
+    position: relative;
+    top: 60px;
+}
+.content1 h1,.content2 h1
+{
+    color: maroon;
+    padding-left: 9px;
+    font-weight: bolder;
+}
+
+
+/* formatting of services*/
+.service
+{
+    margin-top: 70%;
+}
+.service h1 ,.service h4
+{
+    text-align: center;
+}
+.service h1
+{
+    font-size: 30px;
+    color: maroon;
+    text-transform: capitalize;
+}
+.service h4
+{
+    font-size: 16px;
+    color: #c2ae89;
+    text-transform: capitalize;
+}
+.service ul
+{
+    list-style: none;
+    text-align: center;
+    padding: 18px;
+}
+.service ul li 
+{
+    display: inline-block;
+    max-width: 13%;
+    padding: 48px;
+    border: 3px outset #c2ae89;
+    border-radius: 5px;
+    background-color: #c2ae89;
+}
+.service ul li img
+{
+    width: 50%;
+    height: 50%;
+}
+.service ul li p
+{
+    text-align: justify;
+    max-height: 150px;
+    width: 103%;
+   color: #565151;
+   text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* projects */
+
+.projects ul
+{
+    list-style: none;
+    text-align: center;
+}
+.projects ul li 
+{
+    background-color: maroon;
+    text-align: center;
+    font-weight: bold;
+    width: 31%;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    left: 34%;
+    position: relative;
+    color: white;
+
+}
+.project
+{
+    counter-increment: user-counter;
+    
+}
+/* first and third arrow*/
+.projects .one span::after , .projects .three span::after
+{
+    content: counter(user-counter);
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    background-color: #c2ae89;
+    padding: 4px;
+    width: 50px;
+    position: absolute;
+    top: 9px;
+    left: -4px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 11px;
+}
+.projects .one .arrow::after,.projects .three .arrow::after
+{
+    content: "";
+    border-top: 29px solid transparent;
+    border-right: 47px solid #c2ae89;
+    border-bottom: 23px solid transparent;
+    position: absolute;
+    left: -10%;
+    top: -1px;
+}
+
+.projects .one .image::before ,.projects .three .image::before
+{
+    content: "";
+    background-image: url(../images/service1.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 33px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: -1px;
+    left: 88%;
+ }
+
+ /* second and fourth arrow*/
+ .projects .two span::after , .projects .four span::after
+{
+    content: counter(user-counter);
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    background-color: maroon;
+    padding: 4px;
+    width: 50px;
+    position: absolute;
+    top: 9px;
+    right: -4px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 11px;
+
+    }
+.projects .two .arrow::after,.projects .four .arrow::after
+{
+    content: "";
+    border-top: 29px solid transparent;
+    border-left: 47px solid maroon;
+    border-bottom: 23px solid transparent;
+    position: absolute;
+    right: -10%;
+    top: -1px;
+}
+.projects .two .image::before ,.projects .four .image::before
+{
+    content: "";
+    background-image: url(../images/service2.jpg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 33px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: -1px;
+    right: 88%;
+ }
+
